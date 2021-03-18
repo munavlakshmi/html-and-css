@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html and css</title>
+    <style>
+        h2 {
+            color: brown;
+            font-size: 5rem;
+        }
+        
+        p {
+            color: rgb(0, 255, 13);
+        }
+    </style>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div>
+        <!-- inline css -->
+        <h1 style="color: blue;font-size: 3rem;">heading 1</h1>
+        <!-- internal css (check in head section we can use <style> tag) -->
+        <h2>heading 2</h2>
+        <h2>heading 2</h2>
+        <!-- external css (check in head section we can use <link> tag and need to create sperate css file i.e style.css)-->
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>heading 6</h6>
+        <p>Lorem ipsum dolor sit, <span>span tag which is used to color a part of a text:</span> consectetur adipisicing elit. Blanditiis vel corrupti nostrum, nihil aliquid laudantium adipisci porro omnis dolores veritatis rem possimus suscipit eius vero
+            laboriosam, quas impedit rerum illo.</p>
+    </div>
+    <h1 id="headingid">css id selector</h1>
+    <h1 class="classname multipleclass">css class selector <br>multiple classes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deserunt?</p>
+    <p>paragraph</p>
+    <img src="/mobile1.jpeg" alt="mobile image">
+    <br>
+    <br>
+    <!--line break-->
+    <img src="./mobile1.jpeg" alt="mobile">
+    <br>
+    <br>
+    <!--external link-->
+    <a href="https://www.youtube.com/watch?v=mU6anWqZJcc">HTML & CSS tutorial</a>
+    <br>
+    <br>
+    <!--internal link-->
+    <a href="/about.html">ABOUT</a>
+    <P>This is <sup>superscript</sup></P>
+    <p>This is <sub>SUBSCRIPT</sub></p>
+    <strong>bold the information</strong>
+    <br>
+    <br>
+    <em>emphasized TEXT</em>
+    <p>special characters &copy; &cap; &acute;</p>
+    <ul>
+        <li>UN</li>
+        <li>ORDER</li>
+        <li>LIST</li>
+        <li><a href="./about.html">ABOUT</a></li>
+    </ul>
+    <Ol>
+        <li>ORDERED</li>
+        <li>LIST
+            <ul>
+                <li>NESTED</li>
+                <li>LIST</li>
+            </ul>
+        </li>
+        <li><a href="./about.html">ABOUT</a></li>
+    </Ol>
+    <table>
+        <tr>
+            <th>table heading 1</th>
+            <th>table heading 2</th>
+        </tr>
+        <tr>
+            <td>table information column 1</td>
+            <td>table information column 2</td>
+        </tr>
+        <tr>
+            <td>table information column 1</td>
+            <td>table information column 2</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <form action="" method="">
+        <label for="username">USER NAME:</label>
+        <input type="text" placeholder="name of user" name="name" id="username">
+        <br>
+        <br>
+        <label for="password">PASSWORD:</label>
+        <input type="password" placeholder="password" id="password">
+        <br>
+        <br>
+        <label for="description">description:</label>
+        <br>
+        <br>
+        <textarea name="description" id="description" cols="30" rows="10">write description about something</textarea>
+        <br>
+        <br>
+        <p>please select any language</p>
+        <input type="radio" name="coding" id="" value="java">java
+        <input type="radio" name="coding" id="" value="javascript">javascript
+        <br>
+        <br>
+        <p>please select known language</p>
+        <input type="checkbox" name="language" checked="checked" id="" value="english">english
+        <input type="checkbox" name="language" id="" value="telugu">telugu
+        <input type="checkbox" name="language" id="" value="tamil">tamil
+        <br>
+        <br>
+        <p>please select you preferred language</p>
+        <select name="language" id="">
+            <option value="english">english</option>
+            <option value="telugu">telugu</option>
+            <option value="tamil">tamil</option>
+            <option value="kanada">kanada</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT PLEASE">
+        <button type="submit">submit button</button>
+    </form>
+    <div class="outer">
+        <div class="inner">inner region</div>
+        <p>outer region</p>
+    </div>
+
+    <h1 class="headpadding">css padding model</h1>
+    <div class="banner">
+        <img src="./background.jpeg" alt="backgroung">
+        <p class="parpadding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minus praesentium harum iste eligendi veritatis est placeat corporis laudantium ea!</p>
+    </div>
+    <br>
+    <p class="outline">outline styles</p>
+    <br>
+    <div class="image">
+        <p>url added image</p>
+    </div>
+</body>
+
+</html>

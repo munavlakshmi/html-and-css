@@ -1,0 +1,182 @@
+h3 {
+    color: red;
+    font-size: 2rem;
+}
+
+em {
+    color: chocolate;
+}
+
+h4,
+h5 {
+    color: deeppink;
+}
+
+
+/* id selectors */
+
+#headingid {
+    background-color: blue;
+}
+
+
+/* class selectors */
+
+.classname {
+    color: crimson;
+}
+
+.multipleclass {
+    font-size: larger;
+}
+
+
+/* div and span tags */
+
+div {
+    background-color: rgb(197, 57, 57);
+    border: 5px solid black;
+}
+
+span {
+    text-align: center;
+    color: black;
+}
+
+
+/* universal selector */
+
+* {
+    font-family: monospace;
+}
+
+
+/* percent value -Relative */
+
+.outer {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.inner {
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+}
+
+
+/* CSS box model */
+
+.headpadding {
+    background: red;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    border: solid;
+    border-color: rgb(10, 10, 10);
+    border-radius: 20px;
+}
+
+.parpadding {
+    background: blue;
+    margin-top: 0px;
+    padding: 20px 80px 60px 50px;
+}
+
+.outline {
+    outline-offset: 10px;
+    outline-color: black;
+    outline-width: 4px;
+    outline-style: dashed;
+}
+
+.image {
+    background: url("./mobile1.jpeg");
+    background-repeat: no-repeat;
+    background-repeat: round;
+}
+
+body {
+    background: linear-gradient(rgba(238, 234, 234, 0.5), rgba(250, 243, 243, 0.5)), url("./background.jpeg");
+    opacity: 10;
+}
+
+.banner {
+    background-color: bisque;
+}
+
+img {
+    float: right;
+}
+
+p {
+    clear: right;
+}
+
+@media screen and (max-width:677px) {
+    body {
+        background-image: url("./mobile1.jpeg");
+    }
+}
+
+p::before {
+    content: "adding pseudo element";
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    /* display: block;
+    background-color: black; */
+}
+
+
+/* p::after {
+    content: "adding pseudo element";
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    display: block;
+    background-color: black;
+}
+*/
+
+
+/* ::first-letter ::first-line */
+
+
+/* :hover */
+
+
+/* :link :visited :active */
+
+
+/* :root */
+
+
+/* transform: traslate(),scale(),rotate(),skew() */
+
+
+/* transition : change over time
+transition-property:
+transition-duration: */
+
+
+/* animation */
+
+
+/* --cssvariableName 
+
+:root {
+    --primaryColour: red;
+}
+
+p {
+    color: var(--primaryColour);
+}
+
+h1 {
+    color: var(--primaryColour);
+} */
